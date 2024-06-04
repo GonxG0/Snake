@@ -6,7 +6,7 @@ class Game:
 
     def __init__(self):
         self.width = 620
-        self.tile = 20
+        self.tile = 21
         self.W_tile = self.width / self.tile
         self.Q_tile = round(self.width / self.W_tile)
         self.window = pygame.display.set_mode((self.width, self.width))
